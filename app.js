@@ -1,6 +1,6 @@
 const getFiles = require("node-recursive-directory");
 const fs = require("fs")
-const repoName = "/pb/";
+const repoName = "/emoji-pays/";
 (async()=>{
     data = await getFiles("./emojis"); 
     let newA = data.map(x=>{
